@@ -3,8 +3,13 @@ def sort_array_asc(array)
 end
 
 def sort_array_desc(array)
+<<<<<<< HEAD
   array.sort do | left, right|
     right <=> left
+=======
+  array.sort do | a, b|
+    a <=> b
+>>>>>>> d6d5e1944d75f668673cec7b56c366a320f3fe86
   end
 end
 
